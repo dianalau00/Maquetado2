@@ -1,0 +1,131 @@
+/*
+Universidad Tecnológica Metropolitana
+Aplicaciones Web
+Ing. Ruth Martínez.
+Actividad 2
+Maquetacion 2
+Diana Laura Chan Martínez
+Tercer cuatrimestre
+3-C
+Trabajo entregado en tiempo y forma calificado en base a 10.
+Trabajos entregados en fecha posterior sin justificación son calificados en base a 8.
+*/   
+header{
+    height: 250px;
+    text-align: center;
+    
+}
+h2{
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.flex-items{
+    border: 2px solid #000;
+    height: 250px;
+    width: 500px;
+    background-color: white;
+}
+.flex-items:nth-child(1) {
+
+    height: 250px;
+    width: 500px;
+    background-color: #DC143C;
+}
+  
+.flex-items:nth-child(2) {
+ 
+    height: 250px;
+    width: 250px;
+    background-color: #FFC0CB;
+}
+
+
+.nav-items{
+    border: 4.4px solid #000;
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    height: 50px;
+    width: 750px;
+    background-color: #20B2AA;
+}
+
+
+.flex-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    
+}
+  
+
+
+main{
+    height: 400px;
+}
+.flex-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.main-items{
+    border: 2px solid #000;
+    background-color: #FFD700;
+}
+  
+.main-items:nth-child(1) {
+
+    height: 400px;
+    width: 450px;
+    
+}
+  
+.main-items:nth-child(2) {
+
+    height: 400px;
+    width: 300px;
+    
+}
+
+
+
+
+
+.fot-items{
+    border: 4.4px solid #000;
+    height: 50px;
+    width: 750px;
+    background-color: #DDA0DD;
+
+}
+.flex-fot {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+  
+
+
+footer{
+    height: 50px; 
+}
